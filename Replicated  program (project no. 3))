@@ -1,0 +1,34 @@
+import java.util.*;
+
+public class firstprogram {
+	public static void main(String [] args) {
+	    int choiceIs;
+	    System.out.println("Pick your favorite flower : \n1.Lily  \n2.Lotus  \n3.Daisy \n4.Rose \n5.Orchid \n6.Sunflower \n7.Tulip \n8.Dahlia \n9.Lavender \n10.Peony");
+	    Scanner input = new Scanner(System.in);
+	    choiceIs =input.nextInt();
+	    switch(choiceIs)
+	    {    case 1 : System.out.println("Wow your favorite flower is Lily!\nMy favorite flower is Rose.");
+	                 break;
+	        case 2 : System.out.println("Wow your favorite flower is lotus!\nMy favorite flower is Rose.");
+	                 break;
+	        case 3 : System.out.println("Wow your favorite flower is Daisy!\nMy favorite flower is Rose.");
+	                 break;
+	        case 4 : System.out.println("OOh Wow your favorite flower is Rose, mine is too..");
+                     break;
+            case 5 : System.out.println("Wow your favorite flower is Orchid!\nMy favorite flower is Rose.");
+                     break;
+            case 6 : System.out.println("Wow your favorite flower is Sunflower!\nMy favorite flower is Rose.");
+                     break;	
+            case 7 : System.out.println("Wow your favorite flower is tulip!\nMy favorite flower is Rose.");
+                     break;
+            case 8 : System.out.println("Wow your favorite flower is Dahlia!\nMy favorite flower is Rose.");
+                     break;
+            case 9 : System.out.println("Wow your favorite flower is Lavender!\nMy favorite flower is Rose.");
+                     break;            
+            case 10 : System.out.println("Wow your favorite flower is Peony!\nMy favorite flower is Rose.");
+                     break;
+            default :System.out.println("PLEASE ENTER AVALIABLE VALUES");         
+                     break;
+	    }
+	}
+}
